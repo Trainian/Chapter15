@@ -4,7 +4,7 @@ namespace Packt.Shared
 {
     public class Shipper
     {
-        public int SjipperID { get; set; }
+        public int ShipperID { get; set; }
         public string CompanyName { get; set; }
         public string Phone { get; set; }
 
