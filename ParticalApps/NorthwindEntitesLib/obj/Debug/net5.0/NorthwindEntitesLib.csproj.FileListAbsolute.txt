@@ -34,3 +34,15 @@ C:/Users/Admin/source/repos/CSharp8_book/Code/Chapter14/ParticalApps/Chapter14/P
 /home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEntitesLib/obj/Debug/net5.0/NorthwindEntitesLib.dll
 /home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEntitesLib/obj/Debug/net5.0/ref/NorthwindEntitesLib.dll
 /home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEntitesLib/obj/Debug/net5.0/NorthwindEntitesLib.pdb
+C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\NorthwindEntitesLib\bin\Debug\net5.0\NorthwindEntitesLib.deps.json
+C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\NorthwindEntitesLib\bin\Debug\net5.0\NorthwindEntitesLib.dll
+C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\NorthwindEntitesLib\bin\Debug\net5.0\ref\NorthwindEntitesLib.dll
+C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\NorthwindEntitesLib\bin\Debug\net5.0\NorthwindEntitesLib.pdb
+C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\NorthwindEntitesLib\obj\Debug\net5.0\NorthwindEntitesLib.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\NorthwindEntitesLib\obj\Debug\net5.0\NorthwindEntitesLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\NorthwindEntitesLib\obj\Debug\net5.0\NorthwindEntitesLib.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\NorthwindEntitesLib\obj\Debug\net5.0\NorthwindEntitesLib.AssemblyInfo.cs
+C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\NorthwindEntitesLib\obj\Debug\net5.0\NorthwindEntitesLib.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\NorthwindEntitesLib\obj\Debug\net5.0\NorthwindEntitesLib.dll
+C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\NorthwindEntitesLib\obj\Debug\net5.0\ref\NorthwindEntitesLib.dll
+C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\NorthwindEntitesLib\obj\Debug\net5.0\NorthwindEntitesLib.pdb

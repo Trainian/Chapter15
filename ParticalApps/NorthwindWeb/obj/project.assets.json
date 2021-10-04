@@ -370,6 +370,22 @@
           "bin/placeholder/NorthwindContextLib.dll": {}
         }
       },
+      "NorthwindEmployees/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "NorthwindContextLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthwindEmployees.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthwindEmployees.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "NorthwindEntitesLib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -959,6 +975,11 @@
       "path": "../NorthwindContextLib/NorthwindContextLib.csproj",
       "msbuildProject": "../NorthwindContextLib/NorthwindContextLib.csproj"
     },
+    "NorthwindEmployees/1.0.0": {
+      "type": "project",
+      "path": "../NorthwindEmployees/NorthwindEmployees.csproj",
+      "msbuildProject": "../NorthwindEmployees/NorthwindEmployees.csproj"
+    },
     "NorthwindEntitesLib/1.0.0": {
       "type": "project",
       "path": "../NorthwindEntitesLib/NorthwindEntitesLib.csproj",
@@ -967,23 +988,24 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "NorthwindContextLib >= 1.0.0"
+      "NorthwindContextLib >= 1.0.0",
+      "NorthwindEmployees >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "/home/user/.nuget/packages/": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindWeb/NorthwindWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindWeb\\NorthwindWeb.csproj",
       "projectName": "NorthwindWeb",
-      "projectPath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindWeb/NorthwindWeb.csproj",
-      "packagesPath": "/home/user/.nuget/packages/",
-      "outputPath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindWeb/obj/",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindWeb\\NorthwindWeb.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/user/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -995,8 +1017,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindContextLib/NorthwindContextLib.csproj": {
-              "projectPath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindContextLib/NorthwindContextLib.csproj"
+            "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindContextLib\\NorthwindContextLib.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindContextLib\\NorthwindContextLib.csproj"
+            },
+            "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindEmployees\\NorthwindEmployees.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindEmployees\\NorthwindEmployees.csproj"
             }
           }
         }
@@ -1028,7 +1053,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

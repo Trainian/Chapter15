@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEntitesLib/NorthwindEntitesLib.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindEntitesLib\\NorthwindEntitesLib.csproj": {}
   },
   "projects": {
-    "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEntitesLib/NorthwindEntitesLib.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindEntitesLib\\NorthwindEntitesLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEntitesLib/NorthwindEntitesLib.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindEntitesLib\\NorthwindEntitesLib.csproj",
         "projectName": "NorthwindEntitesLib",
-        "projectPath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEntitesLib/NorthwindEntitesLib.csproj",
-        "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEntitesLib/obj/",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindEntitesLib\\NorthwindEntitesLib.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindEntitesLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
