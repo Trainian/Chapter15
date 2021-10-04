@@ -4,8 +4,10 @@
         @Model.FirstName
         @Model.LastName
     </div>
-    <div class="card-body text-dark">
+    <a href="" asp-for="@Model">
+        <div class="card-body text-dark">
         <h5 class="card-title">@Model.Country</h5>
         <p class="card-text">@Model.Notes</p>
     </div>
+    </a>
 </div>

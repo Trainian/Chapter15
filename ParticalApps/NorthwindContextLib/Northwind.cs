@@ -16,7 +16,7 @@ namespace Packt.Shared
 
         public Northwind(DbContextOptions<Northwind> options): base(options)
         {
-            
+    
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
