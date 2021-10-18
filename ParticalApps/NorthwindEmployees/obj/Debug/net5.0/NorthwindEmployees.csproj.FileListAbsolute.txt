@@ -65,3 +65,4 @@ C:/Users/Admin/source/repos/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEm
 /home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEmployees/obj/Debug/net5.0/NorthwindEmployees.RazorTargetAssemblyInfo.cs
 /home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEmployees/obj/Debug/net5.0/NorthwindEmployees.Views.pdb
 /home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEmployees/obj/Debug/net5.0/NorthwindEmployees.csproj.CopyComplete
+/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEmployees/obj/Debug/net5.0/Razor/Areas/PacktFeature/Pages/EmployeeInfo.cshtml.g.cs
