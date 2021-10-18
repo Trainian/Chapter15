@@ -12,7 +12,7 @@ namespace PacktFeatures.Pages
     {
         private Northwind db;
 
-        [BindProperty]
+        [BindProperty(SupportsGet = true)]
         public int id {get;set;}
 
         public EmployeeInfoPageModel(Northwind injectedContext)
@@ -24,7 +24,7 @@ namespace PacktFeatures.Pages
 
         public void OnGet()
         {
-            Employee = db.Employees.First(e => e.EmployeeID == id);
+            Employee = db.Employees.FirstOrDefault(e => e.EmployeeID == id);
         }
     }
 }
