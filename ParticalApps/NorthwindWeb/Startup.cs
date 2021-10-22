@@ -10,6 +10,7 @@ using Microsoft.Extensions.Hosting;
 using System.IO;
 using Microsoft.EntityFrameworkCore;
 using Packt.Shared;
+using Microsoft.Data.Sqlite;
 
 namespace NorthwindWeb
 {
@@ -17,13 +18,21 @@ namespace NorthwindWeb
     {
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
-        public void ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services, IServiceScope serviceScope)
         {
             services.AddRazorPages();
 
             string databasePath = Path.Combine("..", "Northwind.db");
 
-            services.AddDbContext<Northwind>(options => options.UseSqlite($"Data Source={databasePath}"));
+            var connection = new SqliteConnection(databasePath);
+            connection.Open();
+            connection.EnableExtensions(true);
+
+            var dbContext = serviceScope.ServiceProvider.GetService<Northwind>();
+            dbContext.Database.OpenConnection();
+            dbContext.Database.EnsureCreated();
+
+            services.AddDbContext<Northwind>(options => options.UseSqlite(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

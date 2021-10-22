@@ -4,6 +4,7 @@
     // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
 
         {
             "name": ".NET Core Launch (web)",
@@ -18,6 +19,7 @@
                 "action": "openExternally",
                 "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
             },
+            "requireExactSource": false,            
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development"
             },

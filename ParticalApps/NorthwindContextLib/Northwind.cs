@@ -16,7 +16,9 @@ namespace Packt.Shared
 
         public Northwind(DbContextOptions<Northwind> options): base(options)
         {
-    
+            
+            Database.OpenConnection();
+            Database.EnsureCreated();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

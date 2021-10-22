@@ -7,11 +7,16 @@
         @Model.Employee.FirstName
         @Model.Employee.LastName
     </div>
-    EMPLOYEEEEEE
     <a href="" asp-for="@Model">
         <div class="card-body text-dark">
         <h5 class="card-title">@Model.Employee.Country</h5>
         <p class="card-text">@Model.Employee.Notes</p>
+        @foreach (var order in Model.Employee.Orders)
+        {
+            <p>@order.OrderID</p>
+            <p>@order.ShipVia</p>
+            <p>@order.Freight</p>
+        }
     </div>
     </a>
 </div>
