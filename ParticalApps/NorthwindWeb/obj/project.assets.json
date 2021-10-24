@@ -993,19 +993,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "/home/user/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindWeb\\NorthwindWeb.csproj",
+      "projectUniqueName": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindWeb/NorthwindWeb.csproj",
       "projectName": "NorthwindWeb",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindWeb\\NorthwindWeb.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindWeb\\obj\\",
+      "projectPath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindWeb/NorthwindWeb.csproj",
+      "packagesPath": "/home/user/.nuget/packages/",
+      "outputPath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindWeb/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/user/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -1017,11 +1017,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindContextLib\\NorthwindContextLib.csproj": {
-              "projectPath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindContextLib\\NorthwindContextLib.csproj"
+            "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindContextLib/NorthwindContextLib.csproj": {
+              "projectPath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindContextLib/NorthwindContextLib.csproj"
             },
-            "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindEmployees\\NorthwindEmployees.csproj": {
-              "projectPath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\NorthwindEmployees\\NorthwindEmployees.csproj"
+            "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEmployees/NorthwindEmployees.csproj": {
+              "projectPath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEmployees/NorthwindEmployees.csproj"
             }
           }
         }
@@ -1053,7 +1053,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

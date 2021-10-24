@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using Packt.Shared;
 
 namespace PacktFeatures.Pages
@@ -18,7 +19,7 @@ namespace PacktFeatures.Pages
 
         public void OnGet ()
         {
-           employeesSorted = db.Employees.AsEnumerable().GroupBy(e => e.City);
+           employeesSorted = db.Employees.Include(o => o.Orders).AsEnumerable().GroupBy(e => e.City);
         }
     }
 }

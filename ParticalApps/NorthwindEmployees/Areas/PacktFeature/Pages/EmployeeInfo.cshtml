@@ -11,11 +11,18 @@
         <div class="card-body text-dark">
         <h5 class="card-title">@Model.Employee.Country</h5>
         <p class="card-text">@Model.Employee.Notes</p>
-        @foreach (var order in Model.Employee.Orders)
+        if(@Model.Employee.Orders =! null)
         {
-            <p>@order.OrderID</p>
-            <p>@order.ShipVia</p>
-            <p>@order.Freight</p>
+            @foreach (var order in Model.Employee.Orders)
+            {
+                <p>@order.OrderID</p>
+                <p>@order.ShipVia</p>
+                <p>@order.Freight</p>
+            }
+        }
+        else
+        {
+            <p>Orders is Empty!</p>
         }
     </div>
     </a>
