@@ -7,4 +7,8 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = NorthwindEntitesLib
+<<<<<<< HEAD
 build_property.ProjectDir = /home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindEntitesLib/
+=======
+build_property.ProjectDir = C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\NorthwindEntitesLib\
+>>>>>>> 08a39265fe13e617f7663770464a9e037ee8a131

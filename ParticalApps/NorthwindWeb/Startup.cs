@@ -18,7 +18,7 @@ namespace NorthwindWeb
     {
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
-        public void ConfigureServices(IServiceCollection services )//, IServiceScope serviceScope)
+        public void ConfigureServices(IServiceCollection services)//, IServiceScope serviceScope)
         {
             services.AddRazorPages();
 
@@ -32,7 +32,7 @@ namespace NorthwindWeb
             // dbContext.Database.OpenConnection();
             // dbContext.Database.EnsureCreated();
 
-            services.AddDbContext<Northwind>(options => options.UseSqlite($"Data Source={databasePath}"));
+            services.AddDbContext<Northwind>(options => options.UseSqlite($"Data source={databasePath}"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
