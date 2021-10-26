@@ -15624,6 +15624,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindMvc/Views/Home/ProductDetail.cshtml",
+      "TargetPath": "Views\\Home\\ProductDetail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindMvc/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -15639,8 +15644,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindMvc/Views/Home/ProductsThatCostMoreThan.cshtml",
+      "TargetPath": "Views\\Home\\ProductsThatCostMoreThan.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindMvc/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindMvc/Views/Home/ModelBinding.cshtml",
+      "TargetPath": "Views\\Home\\ModelBinding.cshtml",
       "FileKind": "mvc"
     },
     {

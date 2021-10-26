@@ -166,3 +166,6 @@ C:/Users/Admin/source/repos/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindMv
 /home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindMvc/obj/Debug/net5.0/ref/NorthwindMvc.dll
 /home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindMvc/obj/Debug/net5.0/NorthwindMvc.pdb
 /home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindMvc/obj/Debug/net5.0/NorthwindMvc.genruntimeconfig.cache
+/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindMvc/obj/Debug/net5.0/Razor/Views/Home/ProductDetail.cshtml.g.cs
+/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindMvc/obj/Debug/net5.0/Razor/Views/Home/ModelBinding.cshtml.g.cs
+/home/user/CSharp8_book/Code/Chapter15/ParticalApps/NorthwindMvc/obj/Debug/net5.0/Razor/Views/Home/ProductsThatCostMoreThan.cshtml.g.cs
