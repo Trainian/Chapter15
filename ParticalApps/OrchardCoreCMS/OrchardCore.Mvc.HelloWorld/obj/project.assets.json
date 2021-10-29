@@ -1,0 +1,258 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "OrchardCore.Abstractions/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "ZString": "2.4.2"
+        },
+        "compile": {
+          "lib/net5.0/OrchardCore.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/OrchardCore.Abstractions.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OrchardCore.Module.Targets/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "OrchardCore.Abstractions": "1.1.0"
+        },
+        "compile": {
+          "lib/net5.0/OrchardCore.Module.Targets.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/OrchardCore.Module.Targets.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "build/OrchardCore.Module.Targets.props": {},
+          "build/OrchardCore.Module.Targets.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/OrchardCore.Module.Targets.props": {},
+          "buildMultiTargeting/OrchardCore.Module.Targets.targets": {}
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "ZString/2.4.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/ZString.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/ZString.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "OrchardCore.Abstractions/1.1.0": {
+      "sha512": "Bn/9upmXCSa7mQPu3ebrICuQ+NmJ8KNJKnM/oNdJULxQ7QixJo0mvEY/c4EUb6VlMU/8wTCdaACqT2mfRtFFjg==",
+      "type": "package",
+      "path": "orchardcore.abstractions/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/OrchardCore.Abstractions.dll",
+        "lib/net5.0/OrchardCore.Abstractions.xml",
+        "lib/netcoreapp3.1/OrchardCore.Abstractions.dll",
+        "lib/netcoreapp3.1/OrchardCore.Abstractions.xml",
+        "orchardcore.abstractions.1.1.0.nupkg.sha512",
+        "orchardcore.abstractions.nuspec"
+      ]
+    },
+    "OrchardCore.Module.Targets/1.1.0": {
+      "sha512": "GBDlGh/hps8Ic+jhYbVUf0v2W2S3w2ZlGo7ZyqEwETmOIdU94ETX2aYjERtVLSm0BSQ0JERoVRPrps92ViQgeQ==",
+      "type": "package",
+      "path": "orchardcore.module.targets/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/OrchardCore.Module.Targets.props",
+        "build/OrchardCore.Module.Targets.targets",
+        "build/Package.Build.props",
+        "buildMultiTargeting/OrchardCore.Module.Targets.props",
+        "buildMultiTargeting/OrchardCore.Module.Targets.targets",
+        "lib/net5.0/OrchardCore.Module.Targets.dll",
+        "lib/net5.0/OrchardCore.Module.Targets.xml",
+        "lib/netcoreapp3.1/OrchardCore.Module.Targets.dll",
+        "lib/netcoreapp3.1/OrchardCore.Module.Targets.xml",
+        "orchardcore.module.targets.1.1.0.nupkg.sha512",
+        "orchardcore.module.targets.nuspec"
+      ]
+    },
+    "System.Memory/4.5.3": {
+      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "type": "package",
+      "path": "system.memory/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "ZString/2.4.2": {
+      "sha512": "3KNL8FCTz3yC28Kz4aX9fltreiMgUFefwvuzHP/Iq6cxOkaA/0z4EjrNox/ZI3kjI4gfZjBMdOT+jhX8q+WS+Q==",
+      "type": "package",
+      "path": "zstring/2.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/ZString.dll",
+        "lib/netstandard2.0/ZString.xml",
+        "lib/netstandard2.1/ZString.dll",
+        "lib/netstandard2.1/ZString.xml",
+        "zstring.2.4.2.nupkg.sha512",
+        "zstring.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "OrchardCore.Module.Targets >= 1.1.0-preview-16377"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\OrchardCoreCMS\\OrchardCore.Mvc.HelloWorld\\OrchardCore.Mvc.HelloWorld.csproj",
+      "projectName": "OrchardCore.Mvc.HelloWorld",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\OrchardCoreCMS\\OrchardCore.Mvc.HelloWorld\\OrchardCore.Mvc.HelloWorld.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\OrchardCoreCMS\\OrchardCore.Mvc.HelloWorld\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "OrchardCore.Module.Targets": {
+            "target": "Package",
+            "version": "[1.1.0-preview-16377, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "OrchardCore.Mvc.HelloWorld зависит от OrchardCore.Module.Targets (>= 1.1.0-preview-16377), но OrchardCore.Module.Targets 1.1.0-preview-16377 не найден. Использовано наилучшее приближенное соответствие OrchardCore.Module.Targets 1.1.0.",
+      "libraryId": "OrchardCore.Module.Targets",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

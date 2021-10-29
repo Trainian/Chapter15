@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "dgSpecHash": "QqVPq4QxrvevEBQEhWrXcye+/u5Py2LEDRwYSU9duGXvXfCt9EKMTHdC1S3TMH9JIukJ1HOK3Ri3eiJ2O2JV5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter15\\ParticalApps\\OrchardCoreCMS\\OrchardCore.Mvc.Web\\OrchardCore.Mvc.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.11\\microsoft.aspnetcore.jsonpatch.5.0.11.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.11\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.11.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.11\\microsoft.aspnetcore.mvc.razor.extensions.5.0.11.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.11\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.11.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.11\\microsoft.aspnetcore.razor.language.5.0.11.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0\\microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\microsoft.codeanalysis.common.3.8.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0\\microsoft.codeanalysis.csharp.3.8.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.codeanalysis.razor\\5.0.11\\microsoft.codeanalysis.razor.5.0.11.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencymodel\\5.0.0\\microsoft.extensions.dependencymodel.5.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\ncrontab\\3.3.1\\ncrontab.3.3.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\nodatime\\3.0.7\\nodatime.3.0.7.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\orchardcore\\1.1.0\\orchardcore.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\orchardcore.abstractions\\1.1.0\\orchardcore.abstractions.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\orchardcore.application.mvc.targets\\1.1.0\\orchardcore.application.mvc.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\orchardcore.application.targets\\1.1.0\\orchardcore.application.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\orchardcore.data.abstractions\\1.1.0\\orchardcore.data.abstractions.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\orchardcore.displaymanagement.abstractions\\1.1.0\\orchardcore.displaymanagement.abstractions.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\orchardcore.infrastructure.abstractions\\1.1.0\\orchardcore.infrastructure.abstractions.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\orchardcore.localization.abstractions\\1.1.0\\orchardcore.localization.abstractions.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\orchardcore.module.targets\\1.1.0\\orchardcore.module.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\orchardcore.mvc.core\\1.1.0\\orchardcore.mvc.core.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\orchardcore.queries.abstractions\\1.1.0\\orchardcore.queries.abstractions.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\zstring\\2.4.2\\zstring.2.4.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "OrchardCore.Mvc.Web зависит от OrchardCore.Application.Mvc.Targets (>= 1.1.0-preview-16377), но OrchardCore.Application.Mvc.Targets 1.1.0-preview-16377 не найден. Использовано наилучшее приближенное соответствие OrchardCore.Application.Mvc.Targets 1.1.0.",
+      "libraryId": "OrchardCore.Application.Mvc.Targets",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "OrchardCore.Mvc.HelloWorld зависит от OrchardCore.Module.Targets (>= 1.1.0-preview-16377), но OrchardCore.Module.Targets 1.1.0-preview-16377 не найден. Использовано наилучшее приближенное соответствие OrchardCore.Module.Targets 1.1.0.",
+      "libraryId": "OrchardCore.Module.Targets",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

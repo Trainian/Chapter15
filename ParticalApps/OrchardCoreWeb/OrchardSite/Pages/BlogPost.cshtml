@@ -1,0 +1,9 @@
+@page "/blogpost/{id}"
+
+<h1>This is the blog post: @Id</h1>
+
+@functions
+{
+    [FromRoute]
+    public string Id { get; set; }
+}

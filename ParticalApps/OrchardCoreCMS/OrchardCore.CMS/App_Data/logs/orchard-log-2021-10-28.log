@@ -1,0 +1,12 @@
+2021-10-28 13:58:48.0607||||Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5001 
+2021-10-28 13:58:48.1867||||Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:5000 
+2021-10-28 13:58:48.1939||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-28 13:58:48.2244||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-28 13:58:48.2244||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\Admin\source\repos\CSharp8_book\Code\Chapter15\ParticalApps\OrchardCoreCMS\OrchardCore.CMS 
+2021-10-28 14:05:41.2298||||Microsoft.AspNetCore.Server.Kestrel|WARN|As of "10/28/2021 11:05:37 +00:00", the heartbeat has been running for "00:00:01.5531917" which is longer than "00:00:01". This could be caused by thread pool starvation. 
+2021-10-28 14:05:47.5391||||Microsoft.AspNetCore.Server.Kestrel|WARN|As of "10/28/2021 11:05:42 +00:00", the heartbeat has been running for "00:00:05.0210332" which is longer than "00:00:01". This could be caused by thread pool starvation. 
+2021-10-28 14:06:35.5395||||Microsoft.AspNetCore.Server.Kestrel|WARN|As of "10/28/2021 11:06:34 +00:00", the heartbeat has been running for "00:00:01.0756624" which is longer than "00:00:01". This could be caused by thread pool starvation. 
+2021-10-28 14:07:01.1101||||Microsoft.AspNetCore.Server.Kestrel|WARN|As of "10/28/2021 11:06:59 +00:00", the heartbeat has been running for "00:00:01.2566906" which is longer than "00:00:01". This could be caused by thread pool starvation. 
+2021-10-28 14:08:17.5004||||Microsoft.AspNetCore.Server.Kestrel|WARN|As of "10/28/2021 11:08:13 +00:00", the heartbeat has been running for "00:00:04.3764923" which is longer than "00:00:01". This could be caused by thread pool starvation. 
+2021-10-28 14:10:22.7072||||Microsoft.AspNetCore.Server.Kestrel|WARN|As of "10/28/2021 11:10:21 +00:00", the heartbeat has been running for "00:00:01.2825893" which is longer than "00:00:01". This could be caused by thread pool starvation. 
+2021-10-28 15:13:36.6977||||Microsoft.Hosting.Lifetime|INFO|Application is shutting down... 
